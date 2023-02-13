@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div> <!--full-width wrapper div-->
-    <header><h1>Joanna Song's Labs for INST377</h1></header> <!--header containing name-->
-    <div> <!-- containter div --> 
-      <div> <!--left div-->
-        <h3>Album Names</h3> <!--sub header saying "albums"-->
+  <div class="wrapper"> <!--full-width wrapper div-->
+    <header class="header"><h1>Joanna Song's Labs for INST377</h1></header> <!--header containing name-->
+    <div class="container"> <!-- containter div --> 
+      <div class="left_section box"> <!--left div-->
+        <h2>Album Names</h2> <!--sub header saying "albums"-->
+        <div class="box">
         <ol> <!--top 5 albums-->
           <li>SZA - SOS</li>
           <li>Lizzy McAlpine - five seconds flat</li>
@@ -19,32 +20,26 @@
           <li>Beyonce - Renaissance</li>
           <li>Olivia Rodrigo - SOUR</li>
         </ol>
+        </div>
       </div>
 
-      <div> <!--right div-->
-        <h3>Image Carousel</h3> <!--sub-header saying "image carousel"-->
-        <div> <!--div to contain four images-->
+      <div class="right_section box"> <!--right div-->
+        <h2>Image Carousel</h2> <!--sub-header saying "image carousel"-->
+        <div class="grid"> <!--div to contain four images-->
           <img src="images/mochi.gif"/>
           <img src="images/mochi.jpg"/>
           <img src="images/mochi.png"/>
           <img src="images/mochi.svg"/>
         </div> 
 
-        <div> <!--div to contain a description of text-->
+        <div class="box"> <!--div to contain a description of text-->
           The images display mochi balls, which are a japanese style of rice cake, typically including some flavor of filling
         </div>
       </div>
     </div>
   </div>
-  <footer>joannasong12 <a href="http://github.com/joannasong12/" target="_blank" rel="noopener noreferrer">Joanna Song's gitHub</a></footer>
+  <footer class="footer">
+    joannasong12 <a href="http://github.com/joannasong12/" target="_blank" rel="noopener noreferrer">Joanna Song's gitHub</a>
+  </footer>
 </body>
 </html>
-
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
