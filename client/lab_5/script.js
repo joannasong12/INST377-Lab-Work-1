@@ -30,7 +30,7 @@ async function mainEvent() { // the async keyword means we can make API requests
     */
 
     // this is the preferred way to handle form data in JS in 2022
-    
+
     //const formData = new FormData(submitEvent.target); // get the data from the listener target
     //const formProps = Object.fromEntries(formData); // Turn it into an object
 
